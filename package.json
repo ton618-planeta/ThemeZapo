@@ -1,0 +1,21 @@
+{
+  "name": "zapo-group-theme-helper",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Group theme helper and protobuf builder for existing Zapo bots",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "zapo-js": "1.12.0",
+    "sharp": "0.35.5"
+  },
+  "main": "./dist/group-theme.js",
+  "exports": "./dist/group-theme.js"
+}
